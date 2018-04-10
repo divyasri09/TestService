@@ -9,7 +9,7 @@ import org.springframework.web.servlet.DispatcherServlet;
  * 
  */
 @SpringBootApplication
-public class CheckoutServiceApplication {
+public class ServiceApplication {
     
     public ServiceApplication() {       //NOSONAR: Avoiding squid:S1118 as the constructor is required to be public for SpringAppilcation.run()
         super();
